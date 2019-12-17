@@ -1,0 +1,31 @@
+# 浏览器的工作原理
+网页三元素：html负责内容，css负责样式，JavaScript负责动作
+从数据的角度考虑，网页上呈现出来的数据的来源：
+1 html文件
+2 ajax接口
+3 javascript加载
+参考文章：https://blog.csdn.net/dangnian/article/details/50876241
+
+
+# headless Chrome 和 headless FireFox （selenium）介绍：
+# phantomjs
+Selenium诞生于2014年，创造者是ThoughtWorks公司的测试工程师Jason Huggins。创造Selenium的目的就是做自动化测试，用以检测网页交互，避免重复劳动。
+这个工具可以用来自动加载网页，供爬虫抓取数据。
+
+
+# Selenium-WebDriver支持哪些浏览器和系统：
+
+Google Chrome
+Internet Explorer 7, 8, 9, 10, and 11 on appropriate combinations of Vista, Windows 7, Windows 8, and Windows 8.1.
+Firefox
+Safari
+Opera
+phantomjs（一款无头浏览器，已停止维护）
+Android (with Selendroid or appium)
+iOS (with ios-driver or appium)
+
+# selenium官方文档：
+https://www.seleniumhq.org/docs/
+
+# 建议学习这个针对Python的文档：
+https://selenium-python.readthedocs.io

@@ -1,0 +1,12 @@
+# 安装selenium:
+pip install selenium
+
+# 引入webdriver：
+from selenium import webdriver
+
+# 设置选项：
+option = webdriver.ChromeOptions()
+option.add_argument('headless')
+
+# 添加驱动
+driver = webdriver.Chrome('./chromedriver',chrome_options=option)
